@@ -1,0 +1,46 @@
+.top{
+    text-align: center;
+}
+
+ul{
+overflow: hidden;
+background-color: dimgray;
+list-style-type: none;
+}
+
+.m{
+    float: left;
+}
+li a{
+    display: block;
+    padding: 13px 17px;
+    text-decoration: none;
+    color: white;
+
+}
+li a:hover{
+    background-color: black;
+}
+
+.blog{
+    width: 610px;
+    height: 500px;
+    border-radius: 2px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+
+    border: solid rgb(22, 2, 6);
+}
+.item{
+    height: 300px;
+    width: 390px;
+    float: left;
+    border: solid rgb(0, 140, 255);
+    margin: 10px;
+    padding: 10px;
+}
+
+.top10:nth-child(2n+1){
+    color: rgb(255, 0, 0);
+}
